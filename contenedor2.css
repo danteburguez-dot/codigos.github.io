@@ -1,0 +1,39 @@
+.contenedor{
+    background-color: rgb(57, 166, 234);
+    width: 30%;
+    height: 90%;
+    padding: 12px;
+    box-sizing: border-box;
+}
+body{
+    color:#000000;
+    background-color: #0c6337;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.parrafo-con-imagen{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.imagen-alegre{
+    width: 10%;
+    height: auto;
+    border-radius: 6px;
+}.source{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+.game-link {
+    color: #f2ff00;
+    text-decoration: none;
+}
+.tabla-juegos {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-color: #000000;
+}
