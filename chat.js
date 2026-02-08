@@ -21,7 +21,7 @@
         if(/hola|buenas|hey|hello/.test(low)) return '¡Hola! ¿En qué puedo ayudarte?';
         if(/adios|hasta luego|chao|nos vemos/.test(low)) return '¡Hasta luego! Si necesitas algo más, escribe aquí.';
         if(/[¿?]/.test(m)) return 'buena pregunta... te puedo ayudar si no entendes alguna cosa solo escribe (Que es este lugar) y te explico pero no puedo responder preguntas que no tengan que ver con este sitio.';
-        if(/que se hace|que puedo hacer aca|que es este sitio/.test(low)) return 'En este lugar podes buscar libros o juegos para descargar, o simplemente charlar conmigo pero como soy una IA simple no tengo mucho para decir, pero si quieres puedo ayudarte a encontrar algo interesante para descargar.';
+        if(/que se hace|que puedo hacer aca|que es este sitio/.test(low)) return 'En este lugar podes buscar libros o juegos para jugar, o simplemente charlar conmigo pero como soy una IA simple no tengo mucho para decir, pero si quieres puedo ayudarte a encontrar algo interesante para juegar.';
         if(/gracias|muchas gracias/.test(low)) return 'De nada — ¡me alegra ayudar!';
         if(/como te llamas|nombre/.test(low)) return 'No tengo un nombre propio, soy una IA simple integrada en esta página.';
         // fallback: echo with slight variation
@@ -58,3 +58,4 @@
     // welcome message
     appendMessage('Hola — soy una IA simple. Escribe en el cuadro y pulsa enviar (o Enter).', 'bot');
 })();
+
